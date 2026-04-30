@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b132b;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: lime;
+}
+
+/* 🏆 TOP 3 */
+.top3 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.mvp {
+  width: 30%;
+  border: 2px solid white;
+  padding: 10px;
+  background: #1c2541;
+}
+
+.mvp img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+/* 🔥 FULL LEADERBOARD */
+.leaderboard {
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1c2541;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+th {
+  background: lime;
+  color: black;
+}
+
+/* FOOTER */
+.update {
+  margin: 10px;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+
+  .top3 {
+    flex-direction: column;
+  }
+
+  .mvp {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+}
